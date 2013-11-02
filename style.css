@@ -1,0 +1,47 @@
+body {
+	margin: 0;
+	background-image: url(body-background.png);
+	font: 12pt/1.3em Georgia, sans-serif;
+	text-align: center;
+}
+
+a { color: #bf0000; }
+a:hover { color: #f20000; }
+
+a.toggler {
+	position: absolute;
+	left: 1.5em;
+	top: 1.5em;
+	width: 1.5em;
+	height: 1.5em;
+	line-height: 1.5em;
+	background-color: black;
+	color: #ffe600;
+	text-decoration: none;
+}
+
+#info {
+	position: absolute;
+	left: 1.5em;
+	top: 3em;
+	text-align: left;
+	background-image: url(info-background.png);
+}
+
+#info div { padding: 0.5em; }
+
+#content {
+	font-size: 24pt;
+	line-height: 0;
+	font-weight: bold;
+	margin-top: 1em;
+}
+
+#content img {
+    margin-bottom: 12pt;
+}
+
+#content p {
+    margin: 0;
+    line-height: 1.3em;
+}

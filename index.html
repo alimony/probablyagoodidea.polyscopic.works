@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>That is probably a good idea…</title>
+	<meta name="author" content="Markus Amalthea Magnuson" />
+	<link rel="stylesheet" href="style.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/prototype/1.6.1.0/prototype.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/scriptaculous/1.8.3/scriptaculous.js"></script>
+	<script>
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-15456062-1']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	</script>
+</head>
+<body>
+	<a class="toggler" href="#" onclick="Effect.toggle('info', 'slide'); return false;">?</a>
+	<div id="info" style="display: none;">
+		<div>
+			<a href="http://probablyagoodidea.org">probablyagoodidea.org</a> is the<br />
+			nag-URL you send to people<br />
+			whose website ideas are<br />
+			supposed to &ldquo;change the world&rdquo;.<br />
+			It is not meant to discourage,<br />
+			but to remind.<br />
+		</div>
+	</div>
+	<div id="content">
+		<img src="lightbulb.png"><br />
+		<p>
+			That is probably a good idea, but still<br />
+			only <a href="http://www.internetworldstats.com/stats.htm">34.3%</a> of the world population<br />
+			has access to the internet.
+		</p>
+	</div>
+</body>
+</html>
