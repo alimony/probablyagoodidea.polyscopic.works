@@ -1,4 +1,4 @@
-[probablyagoodidea.org](http://probablyagoodidea.org)
+[probablyagoodidea.org](https://probablyagoodidea.org)
 =====================================================
 
 The nag-URL you send to people whose website ideas are supposed to “change the world”.
